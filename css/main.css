@@ -1,0 +1,256 @@
+/*---------Global----------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+}
+
+body{
+    background-color: #f1f1f1!important;
+    color: #757575!important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+h2{
+    font-weight: 500;
+}
+
+.card{
+    background-color: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+   -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);   
+   -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);    
+}
+
+.accentBG{
+    background-color: cadetblue;
+}
+
+.accentcolor{
+    color: cadetblue;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 56px;
+    margin-right: 56px;
+}
+
+hr {
+    width: 80%;
+    margin: 20px auto 20px auto;
+    background-color: #7575;
+    height: 1px;
+}
+
+i{
+    font-size: 19px
+    
+}
+
+
+/*---------first card----------*/
+.container1{
+    margin: 0 0 16px 0;
+    padding: 10px 16px 0 20px;
+}
+
+#firstcard{
+    min-width: 33.33%;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+#me-container{
+    position: relative;
+    height: 340px;
+    width: 100%;
+    background: url(../imgs/IMG_20180804_103632.jpg);
+    background-size: cover;
+}
+
+
+
+#me-container h1{
+    position: absolute;
+    display: block;
+    bottom: 10px;
+    left: 16px;
+    color: #f1f1f1;
+    font-family: 'Krub', sans-serif;
+    text-shadow: 0 2px 5px black;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+#info ul{
+    list-style: none;
+     display: inline-block;
+    
+}
+
+#info ul li p{
+    margin-left: 16px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+#skillset b p{
+    display: inline-block;
+    margin-left: 16px;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.skilldisc {
+    margin: 16px 0 10px 0;
+}
+
+.progbarBG{
+    background-color: #f1f1f1!important;
+    border-radius: 16px;
+    
+}
+
+.progbarforehead{
+    border-radius: 16px;
+    text-align: center;
+    color: #F1F1F1;
+    font-size: 13px;
+    
+}
+
+
+#lang{
+    margin-top: 35px;
+    margin-bottom: 16px
+}
+
+#lang b p{
+    display: inline-block;
+    margin-left: 16px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+/*---------second card----------*/
+
+.rightcards{
+    min-width: 66.67%;
+    margin-left: 16PX;
+    }
+
+.titles p{
+    font-size: 30px;
+    font-weight: 400;
+    display: inline-block;
+    margin-left: 15px;
+    margin-bottom: 40px;
+}
+
+.titles i{
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+
+
+.text h3 {
+    font-weight: 400; 
+    color: #5D5D5D;
+    margin-top: ;
+}
+
+
+.date{
+    margin-top: 10px; 
+}
+
+.date p {
+    display: inline-block;
+    margin-left: 16px;
+}
+
+.current{
+    color: #fff;
+    padding: 2px 10px;
+    border-radius: 8px;  
+}
+
+.discrip{
+    color: #778899;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+#desginer{
+    padding-bottom: 20px;
+}
+
+
+/*---Third card (some classes are from 2nd card)--*/
+#edu{
+    padding-bottom: 20px;
+}
+
+/*---Footer--*/
+footer{
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    line-height: 01;
+     -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+
+
+
+/*-------------Reponsive------------*/
+
+@media only screen and (max-width: 900px){
+    .main-container{
+        flex-direction: column;
+    }
+    
+    .rightcards{
+        margin-left: 0;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
