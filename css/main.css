@@ -168,7 +168,6 @@ i{
 .text h3 {
     font-weight: 400; 
     color: #5D5D5D;
-    margin-top: ;
 }
 
 
@@ -230,6 +229,10 @@ footer{
     
     .rightcards{
         margin-left: 0;
+    }
+
+    .main-container {
+       margin: 0.6em;
     }
     
 }
